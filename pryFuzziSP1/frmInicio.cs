@@ -19,22 +19,30 @@ namespace pryFuzziSP1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            if (txtName.Text == "" || txtPW.Text == "" || cbxMod.SelectedItem == null)
+            {
+                MessageBox.Show("Completar los datos", "Error al acceder", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            txtPW.Enabled = true;
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtPW_TextChanged(object sender, EventArgs e)
+        {
+            cbxMod.Enabled = true;
         }
     }
 }

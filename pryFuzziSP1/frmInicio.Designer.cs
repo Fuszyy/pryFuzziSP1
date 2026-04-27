@@ -66,17 +66,20 @@
             this.txtName.Location = new System.Drawing.Point(86, 90);
             this.txtName.MaxLength = 10;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(128, 20);
+            this.txtName.Size = new System.Drawing.Size(122, 20);
             this.txtName.TabIndex = 2;
             this.txtName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtPW
             // 
+            this.txtPW.Enabled = false;
             this.txtPW.Location = new System.Drawing.Point(86, 126);
             this.txtPW.MaxLength = 10;
             this.txtPW.Name = "txtPW";
-            this.txtPW.Size = new System.Drawing.Size(128, 20);
+            this.txtPW.PasswordChar = '#';
+            this.txtPW.Size = new System.Drawing.Size(122, 20);
             this.txtPW.TabIndex = 3;
+            this.txtPW.TextChanged += new System.EventHandler(this.txtPW_TextChanged);
             // 
             // lblName
             // 
@@ -109,10 +112,16 @@
             // cbxMod
             // 
             this.cbxMod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxMod.Enabled = false;
             this.cbxMod.FormattingEnabled = true;
+            this.cbxMod.Items.AddRange(new object[] {
+            "ADM",
+            "SIST",
+            "COM",
+            "VTA"});
             this.cbxMod.Location = new System.Drawing.Point(86, 162);
             this.cbxMod.Name = "cbxMod";
-            this.cbxMod.Size = new System.Drawing.Size(128, 21);
+            this.cbxMod.Size = new System.Drawing.Size(122, 21);
             this.cbxMod.TabIndex = 7;
             // 
             // pbxLogo
