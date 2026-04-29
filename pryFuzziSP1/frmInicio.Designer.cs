@@ -46,7 +46,7 @@
             this.btnCancel.Location = new System.Drawing.Point(75, 210);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 0;
+            this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.button1_Click);
@@ -56,7 +56,7 @@
             this.btnAccept.Location = new System.Drawing.Point(156, 210);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(75, 23);
-            this.btnAccept.TabIndex = 1;
+            this.btnAccept.TabIndex = 7;
             this.btnAccept.Text = "Aceptar";
             this.btnAccept.UseVisualStyleBackColor = true;
             this.btnAccept.Click += new System.EventHandler(this.button2_Click);
@@ -67,7 +67,7 @@
             this.txtName.MaxLength = 10;
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(122, 20);
-            this.txtName.TabIndex = 2;
+            this.txtName.TabIndex = 1;
             this.txtName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtPW
@@ -87,7 +87,7 @@
             this.lblName.Location = new System.Drawing.Point(32, 93);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(43, 13);
-            this.lblName.TabIndex = 4;
+            this.lblName.TabIndex = 0;
             this.lblName.Text = "Usuario";
             // 
             // lblPW
@@ -96,7 +96,7 @@
             this.lblPW.Location = new System.Drawing.Point(14, 129);
             this.lblPW.Name = "lblPW";
             this.lblPW.Size = new System.Drawing.Size(61, 13);
-            this.lblPW.TabIndex = 5;
+            this.lblPW.TabIndex = 2;
             this.lblPW.Text = "Contraseña";
             // 
             // lblMod
@@ -105,7 +105,7 @@
             this.lblMod.Location = new System.Drawing.Point(33, 165);
             this.lblMod.Name = "lblMod";
             this.lblMod.Size = new System.Drawing.Size(42, 13);
-            this.lblMod.TabIndex = 6;
+            this.lblMod.TabIndex = 4;
             this.lblMod.Text = "Módulo";
             this.lblMod.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -122,7 +122,7 @@
             this.cbxMod.Location = new System.Drawing.Point(86, 162);
             this.cbxMod.Name = "cbxMod";
             this.cbxMod.Size = new System.Drawing.Size(122, 21);
-            this.cbxMod.TabIndex = 7;
+            this.cbxMod.TabIndex = 5;
             // 
             // pbxLogo
             // 
