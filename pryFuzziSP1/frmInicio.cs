@@ -42,6 +42,7 @@ namespace pryFuzziSP1
             else
             {
                 MessageBox.Show("Acceso denegado.", "Error al acceder", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
             }
         }
 
